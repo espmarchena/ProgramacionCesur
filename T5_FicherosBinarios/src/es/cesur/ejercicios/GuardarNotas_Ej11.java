@@ -9,7 +9,7 @@ public class GuardarNotas_Ej11 {
 		Scanner scanner = new Scanner(System.in);
 		Notas_Ej11[] notas = new Notas_Ej11[3];
 		
-		Metodos.crearEscribirFicheroBinario(notas, scanner); //metodo con el try/catch. Se pone el nombre de la clase delante pq es estatico y esta desarollado en otra clase
+		Metodos_Ej11y12.crearEscribirFicheroBinario(notas, scanner); //metodo con el try/catch. Se pone el nombre de la clase delante pq es estatico y esta desarollado en otra clase
 	}
 
 	

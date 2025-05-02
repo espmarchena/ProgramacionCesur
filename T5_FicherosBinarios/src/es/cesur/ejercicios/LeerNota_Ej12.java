@@ -9,7 +9,7 @@ public class LeerNota_Ej12 {
 
 	public static void main(String[] args) {
 		
-		Metodos.leerFicheroBinario();
+		Metodos_Ej11y12.leerFicheroBinario(); //metodo con el try/catch. Se pone el nombre de la clase delante pq es estatico y esta desarollado en otra clase
 	}
 
 	

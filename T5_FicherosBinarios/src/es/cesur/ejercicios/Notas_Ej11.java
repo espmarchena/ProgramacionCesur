@@ -25,7 +25,8 @@ public class Notas_Ej11 implements Serializable {
 	        this.curso = curso;
 	        this.calificacion = calificacion;
 	}
-
+	
+	// getters y setters
 	public String getCodigo() {
 		return codigo;
 	}
