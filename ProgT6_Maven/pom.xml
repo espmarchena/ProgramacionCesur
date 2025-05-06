@@ -10,6 +10,7 @@
 	<dependencies>
 		<!--https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client -->
 		<dependency>
+		<!--conector con bbdd mariadb que copiamos de maven repository en internet. Va dentro de las etiquetas dependencies, y dentro de ella, dentro de las etiquetas dependency. Esto creará el driver .jar -->
 			<groupId>org.mariadb.jdbc</groupId>
 			<artifactId>mariadb-java-client</artifactId>
 			<version>3.5.3</version>
@@ -17,6 +18,7 @@
 	</dependencies>
 
 	<properties>
+	<!--aqui dentro indicamos la version de Java que tengamos instalado en Eclipse. Hay que actualizar desde el proyecto maven. Boton derecho/Maven/update proyect -->
 		<maven.compiler.source>23</maven.compiler.source>
 		<maven.compiler.target>23</maven.compiler.target>
 	</properties>
