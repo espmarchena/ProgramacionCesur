@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Scanner;
  
-public class AccesoJDBC_Ejemplo9 { //Insertar departamento con lo introducido por teclado, metiéndolo dentro de la instruccion sql y añadiendose a la bbdd
+public class AccesoJDBC_Insertar_Ejemplo9 { //Insertar departamento con lo introducido por teclado, metiéndolo dentro de la instruccion sql y añadiendose a la bbdd
  
 	// private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
 	private static final String DRIVER = "org.mariadb.jdbc.Driver";
