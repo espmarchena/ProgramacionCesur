@@ -85,10 +85,10 @@ public class Ej2_EncriptarClave {
 	// Método para encriptar la contraseña con SHA-256
 	public static String getSHA256(String data) {
 
-		StringBuilder sb = new StringBuilder();
+		StringBuilder sb = new StringBuilder(); //permite trabajar de forma eficiente con objetos de tipo String (con las cadenas de caracteres)
 
 		try {
-			MessageDigest md = MessageDigest.getInstance("SHA-256");
+			MessageDigest md = MessageDigest.getInstance("SHA-256"); 
 			md.update(data.getBytes());
 			byte[] byteData = md.digest();
 
