@@ -33,8 +33,7 @@ public class Ej4_CrearTabla {
                          "nombre VARCHAR(50) NOT NULL, " +
                          "apellidos VARCHAR(100) NOT NULL, " +
                          "dni VARCHAR(20) NOT NULL UNIQUE, " +
-                         "telefono VARCHAR(20)" +
-                         ")";
+                         "telefono VARCHAR(20)" + ")";
             
             statement.executeUpdate(sql); //ejecuto la instruccion para crear la tabla
             
